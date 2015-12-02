@@ -1,0 +1,30 @@
+{
+  "name": "bloxparty-canvas",
+  "version": "1.0.0",
+  "description": "Canvas utilities for Blox Party",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "budo test/index.js:bundle.js --dir test --live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloxparty/bloxparty-canvas.git"
+  },
+  "author": "Kevin Neff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloxparty/bloxparty-canvas/issues"
+  },
+  "homepage": "https://github.com/bloxparty/bloxparty-canvas#readme",
+  "devDependencies": {
+    "bloxparty-shapes": "^1.0.0",
+    "budo": "^6.1.0"
+  },
+  "dependencies": {
+    "canvas-text-wrapper": "^0.6.7",
+    "color": "^0.10.1"
+  }
+}
