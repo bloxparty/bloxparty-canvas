@@ -11,10 +11,8 @@ module.exports = function wrapCanvas (canvas, options) {
   var canvasHeight = canvas.offsetHeight
   var cellWidth = canvasWidth / options.columns
   var cellHeight = cellWidth
-  // var cellHeight = canvasHeight / (options.rows - 2)
   var innerWidth = cellWidth - (cellWidth * 0.1) * 2
   var innerHeight = innerWidth
-  // var innerHeight = cellWidth - (cellHeight * 0.1) * 2
   var bevelWidth = cellWidth * 0.1
 
   context.setTransform(1, 0, 0, 1, 0, 0)
