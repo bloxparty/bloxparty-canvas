@@ -1,6 +1,6 @@
 {
   "name": "bloxparty-canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Canvas utilities for Blox Party",
   "main": "index.js",
   "directories": {
