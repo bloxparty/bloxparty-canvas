@@ -138,7 +138,6 @@ module.exports = function wrapCanvas (canvas, options) {
     for (var prop in options) {
       context[prop] = options[prop]
     }
-    console.log(wrapper)
     wrapper(canvas, text, {
       verticalAlign: 'middle',
       textAlign: 'center'
